@@ -19,7 +19,7 @@ contract SimpleStorage{     // its the main body kinda like class
 
     People[] public people; // declaring an array
 
-    function store(uint256 _number) public { //function to store the number
+    function store(uint256 _number) public virtual { //function to store the number
         number=_number;
     }
 
